@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemática - Física 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .content {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        .video {
+            text-align: center;
+            margin: 20px 0;
+        }
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #008CBA;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #005f72;
+        }
+        .img-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cinemática</h1>
+    </header>
+
+    <div class="content">
+        <h2>¿Qué es la Cinemática?</h2>
+        <p>La cinemática es la rama de la física que estudia el movimiento de los cuerpos sin considerar las fuerzas que lo causan.</p>
+        
+        <h3>Fórmulas Clave:</h3>
+        <ul>
+            <li><strong>Velocidad:</strong> <span>v = d / t</span></li>
+            <li><strong>Aceleración:</strong> <span>a = (v - v₀) / t</span></li>
+        </ul>
+
+        <h3>Ejemplo:</h3>
+        <p>Si un coche viaja 100 metros en 10 segundos, ¿cuál es su velocidad media?</p>
+        <p><strong>Solución:</strong> v = 100m / 10s = 10 m/s</p>
+
+        <div class="img-container">
+            <img src="https://via.placeholder.com/600x300?text=Imagen+de+Cinemática" alt="Cinemática">
+        </div>
+
+        <div class="video">
+            <h3>Video Explicativo:</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PbHi56PjU3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <a href="index.html">Regresar a la página principal</a>
+    </div>
+
+</body>
+</html>
